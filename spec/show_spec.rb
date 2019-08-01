@@ -5,6 +5,7 @@ describe Show do
   after(:each) do
     Show.destroy_all
   end
+  
 
   before(:each) do
     @rick_and_morty = Show.create(:name => "Rick and Morty", :day => "Thursday", :network => "Adult Swim", :rating => 10)
